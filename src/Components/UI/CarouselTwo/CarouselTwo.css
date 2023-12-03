@@ -1,0 +1,47 @@
+.carouselTwo {
+  position: relative;
+  margin-top: 200px;
+  padding: 30px;
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+}
+.carouselTwo > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%;
+  transform: translate(10%, -91%);
+}
+.carouselTwo_info {
+  text-align: left;
+  text-wrap: balance;
+  margin-bottom: 30px;
+}
+.carouselTwo_info svg {
+  color: #2b85d1;
+  font-size: 22px;
+}
+.carouselTwo_info h4 {
+  margin-bottom: 10px;
+  font-weight: var(--fw-bold2);
+}
+.carouselTwo_external_controlls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:10px;
+    margin-top: 30px;
+}
+.carouselTwo_external_controlls .btn {
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.carouselTwo_external_controlls .btn:is(:hover, :focus) {
+  background-color: rgba(128, 128, 128, 0.15);
+}
+.carouselTwo_external_controlls .btn[data-active="true"] {
+  background-color: rgba(128, 128, 128, 0.25);
+}
