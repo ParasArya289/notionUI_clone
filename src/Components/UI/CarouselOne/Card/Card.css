@@ -45,6 +45,7 @@
 .card__info {
   position: absolute;
   bottom: 0;
+  margin-right: 20px;
   transform: translateY(10%);
   font-size: 13px;
   font-weight: var(--fw-regular);
