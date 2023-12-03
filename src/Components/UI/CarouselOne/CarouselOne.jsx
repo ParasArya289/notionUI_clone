@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Carousel } from "../../Carousel/Carousel";
+import { Card } from "./Card/Card";
 
 export const CarouselOne = () => {
   const [carouselOneIndex, setCarouselOneIndex] = useState(0);
@@ -11,6 +12,7 @@ export const CarouselOne = () => {
   ];
   return (
     <>
+      <Card setIndex={setCarouselOneIndex} index={carouselOneIndex} />
       <Carousel
         setIndex={setCarouselOneIndex}
         index={carouselOneIndex}
