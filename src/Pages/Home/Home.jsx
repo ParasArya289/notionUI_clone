@@ -6,6 +6,7 @@ import { useState } from "react";
 import { CarouselOne } from "../../Components/UI/CarouselOne/CarouselOne";
 import { brandwall } from "../../assets/images";
 import { ConsolidateTool } from "../../Components/UI/ConsolidateTool/ConsolidateTool";
+import { CarouselTwo } from "../../Components/UI/CarouselTwo/CarouselTwo";
 
 export const Home = () => {
   return (
@@ -42,6 +43,9 @@ export const Home = () => {
           </div>
         </div>
         <ConsolidateTool />
+        <div className="home__carousel_2">
+          <CarouselTwo />
+        </div>
       </main>
     </div>
   );
