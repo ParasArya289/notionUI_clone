@@ -46,3 +46,13 @@
 .hero a:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
+@media (max-width: 900px) {
+  .home__main {
+    padding-inline: 66px;
+  }
+}
+@media (max-width: 600px) {
+  .home__main {
+    padding-inline: 33px;
+  }
+}
