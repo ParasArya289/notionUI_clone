@@ -24,6 +24,20 @@ export const ConsolidateTool = () => {
           />
         </picture>
       </div>
+      <h3>
+        "We got rid of nearly a dozen different tools because of
+        <br /> what Notion does for us.
+      </h3>
+      <div className="user_review">
+        <img
+          src="https://www.notion.so/cdn-cgi/image/format=webp,width=128/front-static/shared/logos/color/metalab.png"
+          alt="name"
+        />
+        <span>
+          <b>Justin Watt</b>
+          <br /> Director of Ops & Marketing, MetaLab
+        </span>
+      </div>
     </div>
   );
 };
