@@ -88,6 +88,37 @@
   max-height: 55px;
 }
 
+/* --------carouselTwo----- */
+.home__carousel_2 .column__container {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.home__carousel_2 .column {
+  padding: 30px;
+  flex: 1 0 300px;
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+  text-align: left;
+  text-wrap: balance;
+}
+.home__carousel_2 .column svg {
+  color: #2b85d1;
+  font-size: 22px;
+}
+.home__carousel_2 .column h4 {
+  margin-bottom: 10px;
+  font-weight: var(--fw-bold2);
+}
+.column__container .column img {
+  width: 100%;
+  height: auto;
+  transform: translate(28px, 32px);
+  border-bottom-right-radius: 10px;
+}
+
 @media (max-width: 900px) {
   .home__main {
     padding-inline: 66px;
