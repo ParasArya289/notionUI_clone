@@ -22,3 +22,11 @@ export const carouselTwoImages = [
   "https://www.notion.so/cdn-cgi/image/format=webp,width=1920/front-static/pages/home/building-blocks/gallery.png",
   "https://www.notion.so/cdn-cgi/image/format=webp,width=1920/front-static/pages/home/building-blocks/list.png",
 ];
+export const carouselThreeImages = [
+  "https://www.notion.so/cdn-cgi/image/format=webp,width=1080/front-static/pages/home/persona-carousel/screenshots/engineering.png",
+  "https://www.notion.so/cdn-cgi/image/format=webp,width=1080/front-static/pages/home/persona-carousel/screenshots/design.png",
+  "https://www.notion.so/cdn-cgi/image/format=webp,width=1080/front-static/pages/home/persona-carousel/screenshots/product.png",
+  "https://www.notion.so/cdn-cgi/image/format=webp,width=1080/front-static/pages/home/persona-carousel/screenshots/marketing.png",
+  "https://www.notion.so/cdn-cgi/image/format=webp,width=1080/front-static/pages/home/persona-carousel/screenshots/operations.png",
+  "https://www.notion.so/cdn-cgi/image/format=webp,width=1080/front-static/pages/home/persona-carousel/screenshots/hr.png",
+];
