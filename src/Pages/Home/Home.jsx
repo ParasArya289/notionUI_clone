@@ -1,8 +1,10 @@
 import { Navbar } from "../../Components/Navbar/Navbar";
-import { IoArrowForwardSharp } from "react-icons/io5";
+import {
+  IoArrowForwardSharp,
+  IoColorPaletteOutline,
+  IoEye,
+} from "react-icons/io5";
 import "./Home.css";
-import { Carousel } from "../../Components/Carousel/Carousel";
-import { useState } from "react";
 import { CarouselOne } from "../../Components/UI/CarouselOne/CarouselOne";
 import { brandwall } from "../../assets/images";
 import { ConsolidateTool } from "../../Components/UI/ConsolidateTool/ConsolidateTool";
@@ -45,6 +47,26 @@ export const Home = () => {
         <ConsolidateTool />
         <div className="home__carousel_2">
           <CarouselTwo />
+          <div className="column__container">
+            <div className="column">
+              <IoEye />
+              <h4>Visualize, filter & sort any way you want</h4>
+              <span>
+                Show only tasks assigned to you, or items marked as urgent.
+                Break down any project in the way that's most helpful to you.
+              </span>
+              <img src="https://www.notion.so/cdn-cgi/image/format=webp,width=1080/front-static/pages/home/customize-info.png" />
+            </div>
+            <div className="column">
+              <IoColorPaletteOutline />
+              <h4>Visualize, filter & sort any way you want</h4>
+              <span>
+                Show only tasks assigned to you, or items marked as urgent.
+                Break down any project in the way that's most helpful to you.
+              </span>
+              <img src="https://www.notion.so/cdn-cgi/image/format=webp,width=1080/front-static/pages/home/build-any-page-communicate-any-idea.png" />
+            </div>
+          </div>
         </div>
       </main>
     </div>
