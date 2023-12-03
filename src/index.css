@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #f6f5f4;
+
+  --background: #ffffff;
+
+  --border-color: rgba(0, 0, 0, 0.1);
+
+  --primary-text-color: #121212;
+  --secondary-text-color: #ffffff;
+
+  --fw-bold2: 700;
+  --fw-bold1: 600;
+  --fw-medium: 500;
+  --fw-regular: 400;
+  --fw-light: 300;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  color: var(--primary-text-color);
+  font-family: "Inter", sans-serif;
+}
+/* 1274px */
