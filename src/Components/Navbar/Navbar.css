@@ -2,10 +2,19 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 15px 16px;
-  margin: 0 auto;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 15px 0px;
+  margin-inline: 16px;
   font-size: 15px;
   height: 32px;
+  z-index: 99999999;
+  background-color: var(--primary-color);
+}
+.navbar__scrolled {
+  border-bottom: 1px solid var(--border-color);
 }
 .navbar img {
   height: 100%;
@@ -33,7 +42,7 @@
 .divider {
   height: 20px;
   width: 1px;
-  margin-inline:10px;
+  margin-inline: 10px;
   background-color: var(--border-color);
 }
 .navbar__links .get_notion {
@@ -47,8 +56,8 @@
 .navbar__links a:hover {
   background-color: var(--secondary-color);
 }
-@media (max-width:1000px){
-    .navbar__container{
-        display: none;
-    }
+@media (max-width: 1000px) {
+  .navbar__container {
+    display: none;
+  }
 }
