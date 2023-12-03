@@ -1,4 +1,3 @@
-import { Navbar } from "../../Components/Navbar/Navbar";
 import {
   IoArrowForwardSharp,
   IoColorPaletteOutline,
@@ -13,7 +12,6 @@ import { CarouselTwo } from "../../Components/UI/CarouselTwo/CarouselTwo";
 export const Home = () => {
   return (
     <div className="home">
-      <Navbar />
       <main className="home__main">
         <div className="hero">
           <h1>Write, plan, share. With AI at your side.</h1>
@@ -66,6 +64,20 @@ export const Home = () => {
               </span>
               <img src="https://www.notion.so/cdn-cgi/image/format=webp,width=1080/front-static/pages/home/build-any-page-communicate-any-idea.png" />
             </div>
+          </div>
+          <h3>
+            "Notion adapts to your needs. It’s as minimal or as powerful as
+            <br /> you need it to be."
+          </h3>
+          <div className="user_review">
+            <img
+              src="https://www.notion.so/cdn-cgi/image/format=webp,width=48/front-static/shared/logos/color/match-group.png"
+              alt="logo"
+            />
+            <span>
+              <b>Rahim Makani</b>
+              <br /> Director of Product, Matchgroup
+            </span>
           </div>
         </div>
       </main>
