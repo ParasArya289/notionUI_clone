@@ -8,6 +8,7 @@ import { CarouselOne } from "../../Components/UI/CarouselOne/CarouselOne";
 import { brandwall } from "../../assets/images";
 import { ConsolidateTool } from "../../Components/UI/ConsolidateTool/ConsolidateTool";
 import { CarouselTwo } from "../../Components/UI/CarouselTwo/CarouselTwo";
+import { CarouselThree } from "../../Components/UI/CarouselThree/CarouselThree";
 
 export const Home = () => {
   return (
@@ -79,6 +80,9 @@ export const Home = () => {
               <br /> Director of Product, Matchgroup
             </span>
           </div>
+        </div>
+        <div className="home__carousel_3">
+          <CarouselThree />
         </div>
       </main>
     </div>
