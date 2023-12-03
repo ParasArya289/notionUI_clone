@@ -3,10 +3,15 @@
   align-items: center;
   gap: 20px;
   padding-bottom: 20px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  margin-bottom: -20px;
+  padding-bottom: 20px;
 }
 .card {
   position: relative;
-  min-width: 210px;
+  flex: 1;
+  min-width: 190px;
   min-height: 100px;
   padding: 20px;
   flex-grow: 1;
