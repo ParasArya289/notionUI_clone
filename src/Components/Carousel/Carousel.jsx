@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 import "./Carousel.css";
 
@@ -6,7 +7,7 @@ export const Carousel = ({
   index,
   imgArr,
   controlls = true,
-  runEvery = 1000,
+  runEvery = 2000,
 }) => {
   const handleNextImg = () => {
     if (imgArr.length - 1 === index) {
@@ -22,7 +23,13 @@ export const Carousel = ({
     }
     setIndex((prev) => prev - 1);
   };
-  console.log(index);
+  useEffect(() => {
+    const timeOut = setTimeout(() => {
+      handleNextImg();
+    }, runEvery);
+
+    return () => clearTimeout(timeOut);
+  }, [index]);
   return (
     <div className="carousel">
       <img src={imgArr[index]} />
