@@ -3,13 +3,16 @@ import { IoIosColorPalette, IoIosMegaphone, IoIosCube } from "react-icons/io";
 import { FaCompass } from "react-icons/fa";
 
 import "./Card.css";
+import { useScrollIntoView } from "../../../../Hooks/useScrollIntoView";
 
 export const Card = ({ setIndex, index }) => {
+  const containerRef = useScrollIntoView(".ct3_card[data-active=true]", index);
+
   const handleAction = (index) => {
     setIndex(index);
   };
   return (
-    <div className="ct3_container">
+    <div ref={containerRef} className="ct3_container">
       <div
         className="ct3_card"
         data-active={index === 0}
