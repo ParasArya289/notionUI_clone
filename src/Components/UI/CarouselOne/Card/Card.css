@@ -67,7 +67,7 @@
   transition: opacity 100ms ease;
 }
 
-.card[aria-active="true"] {
+.card[data-active="true"] {
   background-color: var(--primary-color);
 }
 .card[aria-active="true"] .card__info > a {
