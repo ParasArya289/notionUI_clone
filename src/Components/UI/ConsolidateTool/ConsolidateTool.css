@@ -9,7 +9,7 @@
 .img_container {
   position: relative;
   max-width: 600px;
-  min-width: 400px;
+  /* min-width: 400px; */
   margin: 0 auto;
 }
 .img_container img:nth-of-type(1) {
@@ -48,8 +48,11 @@
   font-size: 14px;
 }
 @media (max-width: 750px) {
+  .img_container{
+    max-width: 340px;
+  }
   .img_container picture {
-    top: 50px;
+    top: 40px;
     width: 80px;
     transform: translateX(100%);
   }

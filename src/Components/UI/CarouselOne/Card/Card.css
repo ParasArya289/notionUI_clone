@@ -70,10 +70,10 @@
 .card[data-active="true"] {
   background-color: var(--primary-color);
 }
-.card[aria-active="true"] .card__info > a {
+.card[data-active="true"] .card__info > a {
   opacity: 1;
 }
-.card[aria-active="true"] .card__info {
+.card[data-active="true"] .card__info {
   transform: translateY(-30%);
 }
 
